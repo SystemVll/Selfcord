@@ -1,0 +1,20 @@
+{
+  "name": "discord-multi-voice",
+  "module": "src/main.ts",
+  "scripts": {
+    "start": "bun run ."
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "chalk": "^5.4.1",
+    "discord.js-selfbot-v13": "^3.6.0",
+    "dotenv": "^16.4.7"
+  }
+}
